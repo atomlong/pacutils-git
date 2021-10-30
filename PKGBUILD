@@ -11,6 +11,7 @@ provides=("pacutils=$pkgver")
 license=('MIT')
 source=("$pkgname::git://github.com/andrewgregory/pacutils.git")
 sha1sums=('SKIP')
+makedepends=('pod2man')
 
 pkgver() {
     cd "$srcdir/$pkgname"
